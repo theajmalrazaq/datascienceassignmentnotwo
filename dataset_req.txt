@@ -1,0 +1,37 @@
+DataCleaing
+
+1. Each record in the dataset includes details such as the news channel or newspaper, the journalist responsible, the topic or category of coverage, sentiment indicators, TRP ratings, airtime allocation, and the corresponding advertising revenue
+--------------------------------------------------------------------------------
+
+2. Early inspection of this dataset has revealed substantial inconsistencies, suggesting that the data itself may mirror the very biases and irregularities MAN seeks to expose. 
+Channel names, 
+journalist identities, 
+and city labels are found in duplicate or with inconsistent spellings, complicating any direct comparison.
+--------------------------------------------------------------------------------
+
+3. Many headlines appear misclassified by topic—for example, incidents of terrorism have been wrongly tagged under entertainment, and political stories have been mislabeled as sports.
+--------------------------------------------------------------------------------
+
+4. In several cases, journalists are shown covering beats entirely outside their professional domain, hinting either at editorial control, administrative manipulation, or poor data entry practices
+--------------------------------------------------------------------------------
+
+5.Further examination reveals severe numerical inconsistencies:
+
+  @ airtime values are occasionally negative, 
+
+  @ TRP ratings exceed the theoretical maximum of 100
+
+  @ advertisement revenues are recorded using mixed monetary units such as PKR, lakh, or crore. 
+
+  @ The bias scores—intended to represent political leaning—sometimes surpass the logical range of -1 to +1
+
+  @ provided “Controversy” and “Missing Data” flags often do not match observable facts. 
+
+  @ Interestingly, some pro-government channels appear to receive unusually high advertising revenues during politically sensitive periods, while their coverage of corruption or scandal diminishes, suggesting a potential exchange between favorable coverage and financial incentives.
+
+-------------------------------------------------------------------------------
+
+DataCleaning Requirments:
+
+As a data science investigator working with the Media Accountability Network, you are tasked with conducting a full-scale forensic analysis of this dataset to determine the extent to which systematic bias, editorial influence, and data manipulation can be identified and verified. Your first responsibility is to examine the dataset’s structural integrity, identifying the major sources of inconsistency and noise. This requires designing strategies for standardizing categorical values such as channel and journalist names, correcting or flagging impossible numerical entries, and reconciling monetary values into a single consistent unit. Missing values must be handled carefully, with clear justification for the imputation techniques used, and potential distortions caused by outliers must be critically evaluated before any modeling or visualization is attempted.
+

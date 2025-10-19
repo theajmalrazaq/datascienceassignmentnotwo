@@ -6,26 +6,26 @@ DataCleaing
 2. Early inspection of this dataset has revealed substantial inconsistencies, suggesting that the data itself may mirror the very biases and irregularities MAN seeks to expose. 
 Channel names, 
 journalist identities, 
-and city labels are found in duplicate or with inconsistent spellings, complicating any direct comparison.
+and city labels are found in duplicate or with inconsistent spellings, complicating any direct comparison. (done)
 --------------------------------------------------------------------------------
 
-3. Many headlines appear misclassified by topic—for example, incidents of terrorism have been wrongly tagged under entertainment, and political stories have been mislabeled as sports.
+3. Many headlines appear misclassified by topic—for example, incidents of terrorism have been wrongly tagged under entertainment, and political stories have been mislabeled as sports. (done)
 --------------------------------------------------------------------------------
 
-4. In several cases, journalists are shown covering beats entirely outside their professional domain, hinting either at editorial control, administrative manipulation, or poor data entry practices
+4. In several cases, journalists are shown covering beats entirely outside their professional domain, hinting either at editorial control, administrative manipulation, or poor data entry practices (done)
 --------------------------------------------------------------------------------
 
 5.Further examination reveals severe numerical inconsistencies:
 
-  @ airtime values are occasionally negative, 
+  @ airtime values are occasionally negative,  (done)
 
-  @ TRP ratings exceed the theoretical maximum of 100
+  @ TRP ratings exceed the theoretical maximum of 100 (done)
 
-  @ advertisement revenues are recorded using mixed monetary units such as PKR, lakh, or crore. 
+  @ advertisement revenues are recorded using mixed monetary units such as PKR, lakh, or crore.  (done)
 
   @ The bias scores—intended to represent political leaning—sometimes surpass the logical range of -1 to +1
 
-  @ provided “Controversy” and “Missing Data” flags often do not match observable facts. 
+  @ provided “Controversy” and “Missing Data” flags often do not match observable facts. (done)
 
   @ Interestingly, some pro-government channels appear to receive unusually high advertising revenues during politically sensitive periods, while their coverage of corruption or scandal diminishes, suggesting a potential exchange between favorable coverage and financial incentives.
 

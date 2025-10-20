@@ -23,15 +23,15 @@ and city labels are found in duplicate or with inconsistent spellings, complicat
 
   @ advertisement revenues are recorded using mixed monetary units such as PKR, lakh, or crore.  (done)
 
-  @ The bias scores—intended to represent political leaning—sometimes surpass the logical range of -1 to +1
+  @ The bias scores—intended to represent political leaning—sometimes surpass the logical range of -1 to +1 (done)
 
   @ provided “Controversy” and “Missing Data” flags often do not match observable facts. (done)
 
-  @ Interestingly, some pro-government channels appear to receive unusually high advertising revenues during politically sensitive periods, while their coverage of corruption or scandal diminishes, suggesting a potential exchange between favorable coverage and financial incentives.
+  @ Interestingly, some pro-government channels appear to receive unusually high advertising revenues during politically sensitive periods, while their coverage of corruption or scandal diminishes, suggesting a potential exchange between favorable coverage and financial incentives. 
 
 -------------------------------------------------------------------------------
 
 DataCleaning Requirments:
 
-As a data science investigator working with the Media Accountability Network, you are tasked with conducting a full-scale forensic analysis of this dataset to determine the extent to which systematic bias, editorial influence, and data manipulation can be identified and verified. Your first responsibility is to examine the dataset’s structural integrity, identifying the major sources of inconsistency and noise. This requires designing strategies for standardizing categorical values such as channel and journalist names, correcting or flagging impossible numerical entries, and reconciling monetary values into a single consistent unit. Missing values must be handled carefully, with clear justification for the imputation techniques used, and potential distortions caused by outliers must be critically evaluated before any modeling or visualization is attempted.
+As a data science investigator working with the Media Accountability Network, you are tasked with conducting a full-scale forensic analysis of this dataset to determine the extent to which systematic bias, editorial influence, and data manipulation can be identified and verified. Your first responsibility is to examine the dataset’s structural integrity, identifying the major sources of inconsistency and noise. This requires designing strategies for standardizing categorical values such as channel and journalist names, correcting or flagging impossible numerical entries, and reconciling monetary values into a single consistent unit. Missing values must be handled carefully, with clear justification for the imputation techniques used, and potential distortions caused by outliers must be critically evaluated before any modeling or visualization is attempted. 
 
